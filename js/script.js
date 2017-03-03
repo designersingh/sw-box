@@ -1,20 +1,21 @@
 $(document).ready(function(){
-  $('.star-wars-text').animate({
-    'background-size':'140%'
-  },20000);
+  // $('.star-wars-text').animate({
+  //   'background-size':'140%'
+  // },20000);
+  //
+  // $('.star-wars-text .intro-hero-logo').animate({
+  //   'width':'350px',
+  //   'height':'350px',
+  //   'opacity':1
+  // },1200);
+  //
+  //
+  // setTimeout(function(){
+  //     $('.star-wars-text').fadeOut(3500).hide();
+  //     $('.homepage').fadeIn(1500);
+  // },12000);
 
-  $('.star-wars-text .intro-hero-logo').animate({
-    'width':'350px',
-    'height':'350px',
-    'opacity':1
-  },1200);
-
-
-  setTimeout(function(){
-      $('.star-wars-text').fadeOut(3500).hide();
-      $('.homepage').fadeIn(1500);
-  },12000);
-
+  $('.homepage').fadeIn(1500);
 });
 
 
